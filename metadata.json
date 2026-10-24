@@ -1,0 +1,6 @@
+{
+  "name": "Lengua Castellana 1.º ESO | Preparación de Exámenes",
+  "description": "Plataforma interactiva de Lengua Castellana y Literatura para 1.º ESO con traducción interactiva al armenio, teoría completa, banco de ejercicios, comprensión lectora, simulacros de examen y juegos educativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

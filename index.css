@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --burgundy-950: #2d0b13;
+  --burgundy-900: #4a101d;
+  --burgundy-800: #6b1527;
+  --burgundy-700: #881b31;
+  --burgundy-600: #a9233e;
+  --gold-500: #d97706;
+  --gold-400: #f59e0b;
+  --gold-300: #fbbf24;
+}
+
+html {
+  font-size: 18px; /* Bigger baseline font for optimal reading in 1.º ESO */
+}
+
+/* User font size modes */
+html.font-size-normal {
+  font-size: 17px;
+}
+html.font-size-large {
+  font-size: 19.5px;
+}
+html.font-size-xlarge {
+  font-size: 22px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #faf7f2;
+  color: #1c1917;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+/* Armenian typography: enhanced readability and sizing */
+.font-armenian {
+  font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
+.font-serif-title {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f0ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbbab0;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a89384;
+}
